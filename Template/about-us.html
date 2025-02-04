@@ -18,6 +18,87 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <style>
+        .mission-container {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    
+        .mission-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+    
+        .mission-text {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .vision-container {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        max-width: 700px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .vision-heading {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .vision-text {
+        font-size: 16px;
+        color: #555;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    .vision-point {
+        font-size: 18px;
+        font-weight: bold;
+        color: #222;
+        margin-top: 15px;
+    }
+
+    .vision-container ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .vision-container ul li {
+        font-size: 16px;
+        color: #555;
+        padding-left: 25px;
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    .vision-container ul li::before {
+        content: "✔";
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #28a745;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    </style>
+    
 </head>
 
 <body>
@@ -560,9 +641,12 @@
                     <div class="col-lg-6">
                         <div class="about-area-content">
                             <h2 class="mb-4 fw_600">About Us</h2>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                            <p class="mb-0">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
-                                making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+                            <p>Welcome to GServeTech Inc, your trusted partner in eCommerce and affiliate marketing. We specialize in providing top-quality products and services, connecting customers with the best deals, and helping businesses grow through strategic partnerships.</p>
+                            <p class="mb-0">At GServeTech, our mission is to create a win-win ecosystem for both consumers and businesses. With a commitment to innovation, transparency, and customer satisfaction, we continue to expand our reach, delivering value-driven solutions in the ever-evolving digital marketplace.
+
+                                Join us on our journey to revolutionize online shopping and affiliate marketing!
+                            </br></br>
+                            </p>
                         </div>
                     </div>
                     <div class="col-lg-5 align-self-end pb-4 pb-lg-0">
@@ -589,13 +673,29 @@
                             <img src="./Images/team.svg" alt="team" />
                         </div>
                     </div>
-                    <div class="col-lg-6 pt-4 pt-lg-0">
+                    <b class="col-lg-6 pt-4 pt-lg-0">
                         <h4 class="mb-4 fw_500 d-inline-block txt_white bg_dark_blue p-2 border_radius">Our Mission</h4>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                        <h2 class="mb-3 fw_600">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</h2>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                        <p class="mb-0">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
-                            making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+                        <p>At GserveTech, our mission is to empower customers and businesses through innovative eCommerce and affiliate marketing solutions. We strive to create a seamless shopping experience, foster meaningful partnerships, and deliver unparalleled value by connecting people with the best products and opportunities.</p>
+                        
+                        <div class="mission-container">
+                            <div class="mission-title">Deliver Exceptional Value</div>
+                            <div class="mission-text">
+                                Provide our customers with reliable, diverse, and affordable products.
+                            </div>
+                        
+                            <div class="mission-title">Empower Businesses</div>
+                            <div class="mission-text">
+                                Support our partners through strategic affiliate marketing that drives growth and brand visibility.
+                            </div>
+                        
+                            <div class="mission-title">Foster Trust and Innovation</div>
+                            <div class="mission-text">
+                                Build a transparent, customer-first platform that adapts to the dynamic needs of the digital marketplace.
+                            </div>
+                        </div>
+                        
+                        <p>Our goal is to simplify online shopping, inspire trust, and drive success for businesses and individuals alike in a fast-paced digital world. With a focus on quality, transparency, and customer satisfaction, we are dedicated to transforming the way people shop and collaborate online.</p>
+                        <p class="mb-0">By staying true to these core values, we are committed to reshaping the way people shop and engage in the online economy. Together, we strive to create a future where convenience, savings, and opportunity are at your fingertips.</p>
                     </div>
                 </div>
             </div>
@@ -644,11 +744,26 @@
                 <div class="row justify-content-between align-items-center flex-column-reverse flex-lg-row">
                     <div class="col-lg-6 pt-4 pt-lg-0">
                         <h4 class="mb-4 fw_500 d-inline-block txt_white bg_dark_blue p-2 border_radius">Our Vision</h4>
-                        <h2 class="mb-3 fw_600">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</h2>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                        <p class="mb-0">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
-                            making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
-                        </p>
+                        <div class="vision-container">
+                            <div class="vision-heading">Our Vision</div>
+                            <div class="vision-text">
+                                At <strong>GServeTech</strong>, we envision a future where online shopping and affiliate marketing seamlessly connect 
+                                consumers and businesses in a dynamic, transparent, and value-driven ecosystem. Our goal is to redefine the digital marketplace 
+                                by making eCommerce more <strong>accessible, efficient, and rewarding</strong> for all.
+                            </div>
+                        
+                            <div class="vision-point">We Aspire To:</div>
+                            <ul>
+                                <li><strong>Revolutionize Online Shopping</strong> – Create a frictionless shopping experience where quality products and the best deals are just a click away.</li>
+                                <li><strong>Empower Businesses & Entrepreneurs</strong> – Provide innovative affiliate marketing solutions that drive growth, brand visibility, and long-term success.</li>
+                                <li><strong>Build a Community of Trust</strong> – Foster a digital marketplace that prioritizes transparency, customer satisfaction, and ethical business practices.</li>
+                            </ul>
+                        
+                            <div class="vision-text">
+                                By embracing cutting-edge technology and customer-centric strategies, <strong>[Your Company Name]</strong> aims to be at the forefront of the evolving eCommerce and 
+                                affiliate marketing landscape—shaping a future where everyone benefits from smarter, more connected commerce. 🚀
+                            </div>
+                        </div>
                     </div>
                     <div class="col-lg-6 text-center">
                         <div class="mission-text text-content">
@@ -668,15 +783,15 @@
                         <img src="./Images/our-team.svg" alt="image" />
                     </div>
                     <div class="col-lg-6 text-content">
-                        <h4 class="mb-4 fw_500 d-inline-block txt_white bg_dark_blue p-2 border_radius">Why Magic Mart?</h4>
-                        <h2 class="mb-5 fw_600">Here are some reasons why customers choose Blueket over a competitor</h2>
+                        <h4 class="mb-4 fw_500 d-inline-block txt_white bg_dark_blue p-2 border_radius">Why GServeTech?</h4>
+                        <h2 class="mb-5 fw_600">Here are some reasons why customers choose GServeTech over a competitor</h2>
                         <div class="why-col d-flex pb-4 pb-sm-5">
                             <div class="why-image w-25 pe-3 pe-sm-4">
                                 <img src="./Images/thumbs-up.png" class="img-fluid" alt="image" />
                             </div>
                             <div class="text-content col">
                                 <h4>Assured services</h4>
-                                <p class="mb-0">Magic Mart is a company that specialises in risk management and general safety. We will bring value to your business farm while also ensuring.</p>
+                                <p class="mb-0">GServeTech is a company specializing in eCommerce and affiliate marketing. We bring value to your business by connecting you with high-quality products, strategic partnerships, and innovative marketing solutions to drive growth and success.</p>
                             </div>
                         </div>
                         <div class="why-col d-flex pb-4 pb-sm-5">
@@ -685,7 +800,7 @@
                             </div>
                             <div class="text-content col">
                                 <h4>Cost-effective Solution</h4>
-                                <p class="mb-0">If you think to have a better outcome with low cost then Magic Mart is the one. We are offering the best technology solution at an affordable price.</p>
+                                <p class="mb-0">If you think to have a better outcome with low cost then GServeTech is the one. We are offering the best technology solution at an affordable price.</p>
                             </div>
                         </div>
                         <div class="why-col d-flex">
@@ -770,16 +885,16 @@
                         16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z "></path></svg>
                                     <div class="footer_txt ">
                                         <span class="h7 txt_white text-uppercase d-block ">Hotline Free :</span>
-                                        <a href="tel:(+965)7492-4277 ">
-                                            <h5 class="fw_700 txt_yellow ">(+965) 7492-4277 </h5>
+                                        <a href="tel:(416) 635-0502">
+                                            <h5 class="fw_700 txt_yellow ">(416) 635-0502  </h5>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <h6 class="d-flex align-items-start txt_footer lh-base mb-3 ">
-                                <b>Address:</b> Acme Widgets 123 Widget Street Acmeville, AC<br> 12345 United States of America
+                                <b>Address:</b> 55 De Boers Drive, Ontario<br> M3J0G5 Canada
                             </h6>
-                            <h6 class="d-flex align-items-start txt_footer m-0 "><b>Email:</b> <a class="txt_white txt_hover " href="mailto:name@company.com ">name@company.com</a></h6>
+                            <h6 class="d-flex align-items-start txt_footer m-0 "><b>Email:</b> <a class="txt_white txt_hover " href="mailto:name@company.com ">gservetech@gmail.com</a></h6>
                             <ul class="footer_social text-center ">
                                 <li>
                                     <a href="# ">
@@ -859,7 +974,7 @@
                                     <li><a class="fw_400 h6 txt_footer mb-0 txt_hover " href="terms-and-conditions.html ">Accessibility</a></li>
                                     <li><a class="fw_400 h6 txt_footer mb-0 txt_hover " href="terms-and-conditions.html ">Supply Chain Transparency</a></li>
                                 </ul>
-                                <p class="h6 txt_footer m-0 ">COPYRIGHT 2023 © Magic_mart. ALL RIGHTS RESERVED.</p>
+                                <p class="h6 txt_footer m-0 ">COPYRIGHT 2025 © GServeTech Inc. . ALL RIGHTS RESERVED.</p>
                             </div>
                         </div>
                     </div>
